@@ -12,6 +12,11 @@ The implementation focuses on **learning web crawling and data persistence conce
 ---
 
 ## 📁 Project Structure
+lecture13-crawler-demo/
+├── crawler.py # Fetch weather data from CWA API
+├── init_db.py # Initialize SQLite database and save data
+├── app.py # Streamlit app for data visualization
+└── data.db # SQLite database (generated)
 
 ---
 
@@ -40,3 +45,5 @@ pip install streamlit requests pandas
 python crawler.py
 python init_db.py
 streamlit run app.py
+
+
